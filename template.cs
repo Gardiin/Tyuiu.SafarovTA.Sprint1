@@ -1,4 +1,5 @@
-﻿using Tyuiu.SafarovTA.Sprint1.Task0.V26.Lib;
+﻿using Tyuiu.SafarovTA.Sprint1.Task2.V26.Lib;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 Console.WriteLine("**********************************************************************************");
 Console.WriteLine("* Спринт #1                                                                      *");
