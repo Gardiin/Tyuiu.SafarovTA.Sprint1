@@ -1,4 +1,4 @@
-using Tyuiu.SafarovTA.Sprint1.Task6.V9.Lib;
+﻿using Tyuiu.SafarovTA.Sprint1.Task6.V9.Lib;
 namespace Tyuiu.SafarovTA.Sprint1.Task6.V9.Test
 {
     [TestClass]
@@ -8,9 +8,9 @@ namespace Tyuiu.SafarovTA.Sprint1.Task6.V9.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            string k = "god is goof";
+            string k = "привет мир";
             var res = ds.MoveLetterToStart(k);
-            Assert.AreEqual("", res);
+            Assert.AreEqual("тприве рми", res);
         }
     }
 }

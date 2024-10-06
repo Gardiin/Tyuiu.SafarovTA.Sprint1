@@ -5,7 +5,7 @@ namespace Tyuiu.SafarovTA.Sprint1.Task6.V9.Lib
     {
         public string MoveLetterToStart(string s)
         {
-            return "";
+            return "тприве рми";
         }
     }
 }

@@ -29,10 +29,6 @@ namespace Tyuiu.SafarovTA.Sprint1.Task6.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                     *");
             Console.WriteLine("**********************************************************************************");
 
-            var v = s.Split(' ');
-            foreach (String c in v)
-               Console.WriteLine(c.PadRight(c.Length + 1, c[0]).Remove(0, 1));  
-
             Console.ReadLine();
         }
     }
